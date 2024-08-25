@@ -1,6 +1,6 @@
 const consoleLogT = document.querySelector('#consoleLog');
 const alertT = document.querySelector('#alert');
-const promtT = document.querySelector('#promt');
+const promptT = document.querySelector('#prompt');
 
 consoleLogT.addEventListener('click', 
     (event) => {
@@ -16,9 +16,9 @@ alertT.addEventListener('click',
     }   
 )
 
-promtT.addEventListener('click', 
+promptT.addEventListener('click', 
     (event) => {
-            alert("Promt выводит форму для ввода данных");
-            document.querySelector('#promtCode').textContent = "promt('Заголовок формы для ввода')";
+            alert("Prompt выводит форму для ввода данных");
+            document.querySelector('#promptCode').textContent = "prompt('Заголовок формы для ввода')";
     }   
 )
